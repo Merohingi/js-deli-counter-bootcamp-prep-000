@@ -20,7 +20,7 @@ function nowServing(katzDeliLine) {
     return "The line is currently empty.";
   }
 
-  else {.
+  else {
     var newArray = [];
     for (var i = 0; i < line.length; i++){
       newArray.push(` ${i + 1}. ${line[i]}`);
