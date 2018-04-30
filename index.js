@@ -7,5 +7,5 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 
 function nowServing(name) {
   katzDeliLine[name].length = 1;
-  `Currently serving ${name}`;
+  `Currently serving ${katzDeliLine.shift()}.`;
 }
