@@ -6,6 +6,6 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
 function nowServing(katzDeliLine) {
-  if katzDeliLine[name].length = 1;
-  `Currently serving ${katzDeliLine.shift()}.`;
+  if (katzDeliLine[name].length = 1)
+  return `Currently serving ${katzDeliLine.shift()}.`;
 }
